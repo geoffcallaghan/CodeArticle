@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Helpers;
 
 namespace HelloWorld
 {
@@ -10,7 +7,7 @@ namespace HelloWorld
 	{
 		private static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine(GreetingsHelper.Greeting(Language.Australian));
 			Console.ReadLine();
 		}
 	}
