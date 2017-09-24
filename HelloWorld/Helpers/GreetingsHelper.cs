@@ -10,7 +10,7 @@
 				return "Hello World";
 
 				case Language.Australian:
-				return "G'date Mate!";
+				return "G'day Mate!";
 
 				case Language.Spanish:
 				return "Hola!";
